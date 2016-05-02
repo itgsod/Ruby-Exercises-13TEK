@@ -1,6 +1,6 @@
 # Ruby-Exercises-14TEK
 
-## Loops
+## Loops and If-conditions
 
 1 Write a loop using times that loops 10 times and print the square of the index. 
 
@@ -10,8 +10,43 @@
 
 4 Write the multiplication table of 20 using two nested for loops.
 
-5 Write and infinite loop using loop that calculate Pi and print out each approximation.
+5 Fill up an array with 100 random integers from 1 until 100 using a while loop. 
 
-6 Fill up an array with 100 random integers from 1 until 100 using a while loop. 
+6 Extract all the elements of the above array that are larger than 80.
+
+7 Write a recursive function to compute factorials. The mathematical definition of n factorial is:
+
+   n! = 1                (when n==0)
+      = n * (n-1)!       (otherwise)
+
+
+## Classes
+
+1 Ruby can tell you what class an object is. Type these in RubyMine and describe what differences do you see
+
+12.is_a?(Integer)
+12.is_a?(Float)
+12.is_a?(String)
+
+'12'.is_a?(Integer)
+'12'.is_a?(Float)
+'12'.is_a?(String)
+
+12.0.is_a?(Integer)
+12.0.is_a?(Float)
+12.0.is_a?(String)
+
+2 Write a class Box with a setter and getter such that we can create a new Box with
+x = Box.new()
+
+Use the setter.
+x.size = 10
+
+and use getter and display.
+puts x.size
+
+
+
+
 
 
