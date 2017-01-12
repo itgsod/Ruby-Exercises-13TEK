@@ -65,9 +65,9 @@ puts x.size
 
 ##Polymorphism
 
-1. Build an interface **Welcom** that behave differently depending of which object **person** that use it. Create two method: **greet** and **treat**. The former return the result of the method **greet** of the object **person**. The later return the result of the **treat** method of the object **person**.
-2. Build a class **Swedish** that have two method: **greet** and **treat**. The former return "Hej! Hur mår du?", the later should return "Du får Svensk mat!".
-3. Build a class **English** that have two method: **greet** and **treat**. The former return "Hi how are you?", the later should return "You get English food!".
+1. Build an interface **Welcome** that behave differently depending of which object **person** use it. Create two methods: **greet** and **treat**. The former return the result of the method **greet** of the object **person**. The later return the result of the method **treat** of the object **person**.
+2. Build a class **Swedish** that have two methods: **greet** and **treat**. The former return "Hej! Hur mår du?", the later should return "Du får Svensk mat!".
+3. Build a class **English** that have two methods: **greet** and **treat**. The former return "Hi! how are you?", the later should return "You get English food!".
 
 
 
